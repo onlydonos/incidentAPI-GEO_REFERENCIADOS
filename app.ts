@@ -3,7 +3,7 @@ import 'dotenv/config'
 import { envs } from "./config/envs.plugin";
 import { MongoDatabase } from "./data/init";
 import { IncidentModel } from "./data/models/incident.model";
-import { AppRoutes } from "./presentation/controllers/routes";
+import { AppRoutes } from "./src/presentation/controllers/routes";
 
 const app = express();
 app.use(express.json());
